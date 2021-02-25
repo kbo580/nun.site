@@ -98,6 +98,51 @@ section{
 }
 /*各セクションの見出しここまで*/
 
+/*サムネイル画像*/
+.thumbnail{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*画像を変更するにはimagesの後ろから変える*/
+.work1{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/200x200.png);
+}
+.work2{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/200x200.png);
+}
+.work3{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/200x200.png);
+}
+.work4{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/20201127-IMG_8580-1024x683.jpg);
+}
+.work5{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/20201127-IMG_8580-1024x683.jpg);
+}
+.work6{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/20201127-IMG_8580-1024x683.jpg);
+}
+.work7{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/20201127-IMG_8580-1024x683.jpg);
+}
+.work8{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/20201127-IMG_8580-1024x683.jpg);
+}
+.work9{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/20201127-IMG_8580-1024x683.jpg);
+}
+.work10{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/20201127-IMG_8580-1024x683.jpg);
+}
+.work11{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/20201127-IMG_8580-1024x683.jpg);
+}
+.work12{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/20201127-IMG_8580-1024x683.jpg);
+}
+/*サムネイル画像ここまで*/
+
 /* -------------------------------------------- */
 /* ▼スマホ*/
 /* -------------------------------------------- */
@@ -181,50 +226,11 @@ header{
         .thumbnail{
             height: 100%;
             width: 100%;
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
               a{
                 display: block;
                 width: 100%;
                 height: 100%;
               }
-          }
-          .work1{
-            background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/20201127-IMG_8580-1024x683.jpg);
-          }
-          .work2{
-            background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/20201127-IMG_8580-1024x683.jpg);
-          }
-          .work3{
-            background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/20201127-IMG_8580-1024x683.jpg);
-          }
-          .work4{
-            background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/20201127-IMG_8580-1024x683.jpg);
-          }
-          .work5{
-            background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/20201127-IMG_8580-1024x683.jpg);
-          }
-          .work6{
-            background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/20201127-IMG_8580-1024x683.jpg);
-          }
-          .work7{
-            background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/20201127-IMG_8580-1024x683.jpg);
-          }
-          .work8{
-            background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/20201127-IMG_8580-1024x683.jpg);
-          }
-          .work9{
-            background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/20201127-IMG_8580-1024x683.jpg);
-          }
-          .work10{
-            background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/20201127-IMG_8580-1024x683.jpg);
-          }
-          .work11{
-            background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/20201127-IMG_8580-1024x683.jpg);
-          }
-          .work12{
-            background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/20201127-IMG_8580-1024x683.jpg);
           }
       }
     .moreBtn{
@@ -371,32 +377,23 @@ footer{
               }
           }
       }
-      .icon-wrapper{
-        position: relative;
-          .icon-container{
-            display: flex;
-            justify-content: center;
-              li{
-                width: 40px;
-                height: 40px;
-                background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/20201127-IMG_8580-1024x683.jpg) center/cover;
-                  &:not(:last-child){
-                    margin-right: 16px;
-                  }
-              }
-          }
-          .fas{
-            position: absolute;
-            top:50%;
-            transform: translateY(-50%);
-            font-size: 3.2rem;
-            cursor: pointer;
-          }
-          .fa-angle-double-left{
-            left:0;
-          }
-          .fa-angle-double-right{
-            right: 0;
+      .sp-icon-wrapper{
+          .sp-icon-container{
+            display: grid;
+            gap: 20px 20px;
+            grid-template-columns: repeat(6, 100px);
+            grid-template-rows: 100px 100px;
+            overflow: scroll;
+            width: 100%;
+            li{
+              height: 100%;
+              width: 100%;
+                a{
+                  display: block;
+                  width: 100%;
+                  height: 100%;
+                }
+            }
           }
       }
     }
@@ -543,24 +540,19 @@ footer{
             }
           }
         }
-        .icon-wrapper{
-          position: relative;
-          .icon-container{
-            li{
-              width: 80px;
-              height: 80px;
-              background-color: #aaa;
-                &:not(:last-child){
-                  margin-right: 40px;
-                }
+        .sp-icon-wrapper{
+            .sp-icon-container{
+              display: grid;
+              gap: 10px 10px;
+              grid-template-columns: repeat(12, 200px);
+              grid-template-rows: 200px;
+              grid-auto-flow: rows;
+              overflow: scroll;
+              width: 100%;
             }
-          }
-          .fas{
-            font-size: 6.4rem;
           }
         }
       }
-  }
 }
 
 /* ------------------------------------ */
@@ -672,48 +664,6 @@ footer{
                       height: 100%;
                     }
                 }
-                .work1{
-                  background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/20201127-IMG_8580-1024x683.jpg) center/cover;
-                }
-                .work2{
-                  background: url(../images/20201127-IMG_8580-1024x683.jpg) center/cover;;
-                }
-                .work3{
-                  background-color: hsl(60, 60%, 60%);
-                }
-                .work4{
-                  background-color: hsl(90, 60%, 60%);
-                }
-                .work5{
-                  background-color: hsl(120, 60%, 60%);
-                }
-                .work6{
-                  background-color: hsl(150, 60%, 60%);
-                }
-                .work7{
-                  background-color: hsl(180, 60%, 60%);
-                }
-                .work8{
-                  background-color: hsl(210, 60%, 60%);
-                }
-                .work9{
-                  background-color: hsl(240, 60%, 60%);
-                }
-                .work10{
-                  background-color: hsl(270, 60%, 60%);
-                }
-                .work11{
-                  background-color: hsl(300, 60%, 60%);
-                }
-                .work12{
-                  background-color: hsl(330, 60%, 60%);
-                }
-                .work13{
-                  background-color: hsl(360, 60%, 60%);
-                }
-                .work14{
-                  background-color: hsl(390, 60%, 60%);
-                }
             }
           }
           .works-image-wrapper{
@@ -728,7 +678,7 @@ footer{
               }
           }
         }
-        .icon-wrapper{
+        .sp-icon-wrapper{
           display: none;
         }
       }

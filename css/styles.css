@@ -90,6 +90,75 @@ section {
 }
 
 /*各セクションの見出しここまで*/
+/*サムネイル画像*/
+.thumbnail {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*画像を変更するにはimagesの後ろから変える*/
+.work1 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(../images/200x200.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/200x200.png);
+}
+
+.work2 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(../images/200x200.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/200x200.png);
+}
+
+.work3 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(../images/200x200.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/200x200.png);
+}
+
+.work4 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(../images/20201127-IMG_8580-1024x683.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/20201127-IMG_8580-1024x683.jpg);
+}
+
+.work5 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(../images/20201127-IMG_8580-1024x683.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/20201127-IMG_8580-1024x683.jpg);
+}
+
+.work6 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(../images/20201127-IMG_8580-1024x683.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/20201127-IMG_8580-1024x683.jpg);
+}
+
+.work7 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(../images/20201127-IMG_8580-1024x683.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/20201127-IMG_8580-1024x683.jpg);
+}
+
+.work8 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(../images/20201127-IMG_8580-1024x683.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/20201127-IMG_8580-1024x683.jpg);
+}
+
+.work9 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(../images/20201127-IMG_8580-1024x683.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/20201127-IMG_8580-1024x683.jpg);
+}
+
+.work10 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(../images/20201127-IMG_8580-1024x683.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/20201127-IMG_8580-1024x683.jpg);
+}
+
+.work11 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(../images/20201127-IMG_8580-1024x683.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/20201127-IMG_8580-1024x683.jpg);
+}
+
+.work12 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(../images/20201127-IMG_8580-1024x683.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/20201127-IMG_8580-1024x683.jpg);
+}
+
+/*サムネイル画像ここまで*/
 /* -------------------------------------------- */
 /* ▼スマホ*/
 /* -------------------------------------------- */
@@ -194,75 +263,12 @@ header .fas {
 .works .works-wrapper .grid-container .thumbnail {
   height: 100%;
   width: 100%;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .works .works-wrapper .grid-container .thumbnail a {
   display: block;
   width: 100%;
   height: 100%;
-}
-
-.works .works-wrapper .grid-container .work1 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(../images/20201127-IMG_8580-1024x683.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/20201127-IMG_8580-1024x683.jpg);
-}
-
-.works .works-wrapper .grid-container .work2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(../images/20201127-IMG_8580-1024x683.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/20201127-IMG_8580-1024x683.jpg);
-}
-
-.works .works-wrapper .grid-container .work3 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(../images/20201127-IMG_8580-1024x683.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/20201127-IMG_8580-1024x683.jpg);
-}
-
-.works .works-wrapper .grid-container .work4 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(../images/20201127-IMG_8580-1024x683.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/20201127-IMG_8580-1024x683.jpg);
-}
-
-.works .works-wrapper .grid-container .work5 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(../images/20201127-IMG_8580-1024x683.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/20201127-IMG_8580-1024x683.jpg);
-}
-
-.works .works-wrapper .grid-container .work6 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(../images/20201127-IMG_8580-1024x683.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/20201127-IMG_8580-1024x683.jpg);
-}
-
-.works .works-wrapper .grid-container .work7 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(../images/20201127-IMG_8580-1024x683.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/20201127-IMG_8580-1024x683.jpg);
-}
-
-.works .works-wrapper .grid-container .work8 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(../images/20201127-IMG_8580-1024x683.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/20201127-IMG_8580-1024x683.jpg);
-}
-
-.works .works-wrapper .grid-container .work9 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(../images/20201127-IMG_8580-1024x683.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/20201127-IMG_8580-1024x683.jpg);
-}
-
-.works .works-wrapper .grid-container .work10 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(../images/20201127-IMG_8580-1024x683.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/20201127-IMG_8580-1024x683.jpg);
-}
-
-.works .works-wrapper .grid-container .work11 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(../images/20201127-IMG_8580-1024x683.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/20201127-IMG_8580-1024x683.jpg);
-}
-
-.works .works-wrapper .grid-container .work12 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(../images/20201127-IMG_8580-1024x683.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/20201127-IMG_8580-1024x683.jpg);
 }
 
 .works .works-wrapper .moreBtn {
@@ -426,45 +432,27 @@ footer {
   display: none;
 }
 
-#works #works-wrapper .icon-wrapper {
-  position: relative;
+#works #works-wrapper .sp-icon-wrapper .sp-icon-container {
+  display: -ms-grid;
+  display: grid;
+  gap: 20px 20px;
+  -ms-grid-columns: (100px)[6];
+      grid-template-columns: repeat(6, 100px);
+  -ms-grid-rows: 100px 100px;
+      grid-template-rows: 100px 100px;
+  overflow: scroll;
+  width: 100%;
 }
 
-#works #works-wrapper .icon-wrapper .icon-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+#works #works-wrapper .sp-icon-wrapper .sp-icon-container li {
+  height: 100%;
+  width: 100%;
 }
 
-#works #works-wrapper .icon-wrapper .icon-container li {
-  width: 40px;
-  height: 40px;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(../images/20201127-IMG_8580-1024x683.jpg) center/cover;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/20201127-IMG_8580-1024x683.jpg) center/cover;
-}
-
-#works #works-wrapper .icon-wrapper .icon-container li:not(:last-child) {
-  margin-right: 16px;
-}
-
-#works #works-wrapper .icon-wrapper .fas {
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  font-size: 3.2rem;
-  cursor: pointer;
-}
-
-#works #works-wrapper .icon-wrapper .fa-angle-double-left {
-  left: 0;
-}
-
-#works #works-wrapper .icon-wrapper .fa-angle-double-right {
-  right: 0;
+#works #works-wrapper .sp-icon-wrapper .sp-icon-container li a {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .toTop {
@@ -588,19 +576,17 @@ footer {
     font-size: 1.4rem;
     color: #000;
   }
-  #works #works-wrapper .icon-wrapper {
-    position: relative;
-  }
-  #works #works-wrapper .icon-wrapper .icon-container li {
-    width: 80px;
-    height: 80px;
-    background-color: #aaa;
-  }
-  #works #works-wrapper .icon-wrapper .icon-container li:not(:last-child) {
-    margin-right: 40px;
-  }
-  #works #works-wrapper .icon-wrapper .fas {
-    font-size: 6.4rem;
+  #works #works-wrapper .sp-icon-wrapper .sp-icon-container {
+    display: -ms-grid;
+    display: grid;
+    gap: 10px 10px;
+    -ms-grid-columns: (200px)[12];
+        grid-template-columns: repeat(12, 200px);
+    -ms-grid-rows: 200px;
+        grid-template-rows: 200px;
+    grid-auto-flow: rows;
+    overflow: scroll;
+    width: 100%;
   }
 }
 
@@ -713,49 +699,6 @@ footer {
     width: 100%;
     height: 100%;
   }
-  #works #works-wrapper .works-container .pc-icon-wrapper .pc-icon-container .work1 {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(../images/20201127-IMG_8580-1024x683.jpg) center/cover;
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/20201127-IMG_8580-1024x683.jpg) center/cover;
-  }
-  #works #works-wrapper .works-container .pc-icon-wrapper .pc-icon-container .work2 {
-    background: url(../images/20201127-IMG_8580-1024x683.jpg) center/cover;
-  }
-  #works #works-wrapper .works-container .pc-icon-wrapper .pc-icon-container .work3 {
-    background-color: #d6d65c;
-  }
-  #works #works-wrapper .works-container .pc-icon-wrapper .pc-icon-container .work4 {
-    background-color: #99d65c;
-  }
-  #works #works-wrapper .works-container .pc-icon-wrapper .pc-icon-container .work5 {
-    background-color: #5cd65c;
-  }
-  #works #works-wrapper .works-container .pc-icon-wrapper .pc-icon-container .work6 {
-    background-color: #5cd699;
-  }
-  #works #works-wrapper .works-container .pc-icon-wrapper .pc-icon-container .work7 {
-    background-color: #5cd6d6;
-  }
-  #works #works-wrapper .works-container .pc-icon-wrapper .pc-icon-container .work8 {
-    background-color: #5c99d6;
-  }
-  #works #works-wrapper .works-container .pc-icon-wrapper .pc-icon-container .work9 {
-    background-color: #5c5cd6;
-  }
-  #works #works-wrapper .works-container .pc-icon-wrapper .pc-icon-container .work10 {
-    background-color: #995cd6;
-  }
-  #works #works-wrapper .works-container .pc-icon-wrapper .pc-icon-container .work11 {
-    background-color: #d65cd6;
-  }
-  #works #works-wrapper .works-container .pc-icon-wrapper .pc-icon-container .work12 {
-    background-color: #d65c99;
-  }
-  #works #works-wrapper .works-container .pc-icon-wrapper .pc-icon-container .work13 {
-    background-color: #d65c5c;
-  }
-  #works #works-wrapper .works-container .pc-icon-wrapper .pc-icon-container .work14 {
-    background-color: #d6995c;
-  }
   #works #works-wrapper .works-container .works-image-wrapper {
     width: 35%;
     position: relative;
@@ -767,7 +710,7 @@ footer {
   #works #works-wrapper .works-container .works-image-wrapper .works-image-explain {
     top: 67%;
   }
-  #works #works-wrapper .icon-wrapper {
+  #works #works-wrapper .sp-icon-wrapper {
     display: none;
   }
 }
