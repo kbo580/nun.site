@@ -6,20 +6,28 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/styles.scss">
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <title>main</title>
 </head>
+
 <body>
+  <!--ヘッダー-->
   <header id="topPage">
+    <!--ヘッダーナビ-->
     <ul class="header-nav">
-      <li><a href="works.html">WORKS<span class="border bottom"></span></a></li>
-      <li><a href="#">PROF<span class="border bottom"></span></a></li>
-      <li><a href="#">CONTACT<span class="border bottom"></span></a></li>
+      <li><a href="#works">WORKS<span class="border bottom"></span></a></li>
+      <li><a href="#prof">PROF<span class="border bottom"></span></a></li>
+      <li><a href="#contact">CONTACT<span class="border bottom"></span></a></li>
+      <li><a href="works.html">GALLERY<span class="border bottom"></span></a></li>
       <li><a href="#">BLOG<i class="fas fa-external-link-alt"></i><span class="border bottom"></span></a></li>
     </ul>
+    <!--ヘッダーナビここまで-->
   </header>
+  <!--ヘッダーここまで-->
 
   <main>
-    <section class="works">
+    <!--works-->
+    <section class="works" id="works">
       <div class="works-wrapper">
         <div class="inner">
           <h2 class="section-heading">WORKS</h2>
@@ -41,8 +49,10 @@
         </div>
       </div>
     </section>
+    <!--worksここまで-->
 
-    <section class="prof">
+    <!--プロフィール-->
+    <section class="prof" id="prof">
       <div class="prof-wrapper">
         <div class="inner">
           <h2 class="section-heading">PROF</h2>
@@ -60,8 +70,10 @@
         </div>
       </div>
     </section>
+    <!--プロフィールここまで-->
 
-    <section class="contact">
+    <!--コンタクト-->
+    <section class="contact" id="contact">
       <div class="contact-wrapper">
         <div class="inner">
           <h2 class="section-heading">CONTACT</h2>
@@ -76,12 +88,15 @@
           </form>
         </div>
       </div>
-
     </section>
+    <!--コンタクトここまで-->
   </main>
+
+  <!--フッター-->
   <footer>
     <p>©︎copy rightが入ります</p>
   </footer>
+  <!--フッターここまで-->
   <script src="js/main.js"> </script>
 </body>
 </html>

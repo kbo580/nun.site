@@ -34,10 +34,10 @@ img{
   vertical-align: bottom;
 }
 
-header,main,section,footer, div, ul, li, h1,h2,h3{
-  // background-color: rgba(0,200,100,0.1);
-  // border: 1px solid rgba(0,0,0,0.1);
-}
+// header,main,section,footer, div, ul, li, h1,h2,h3{
+//   background-color: rgba(0,200,100,0.1);
+//   border: 1px solid rgba(0,0,0,0.1);
+// }
 
 /* -------------------------------------------- */
 /* 共通設定*/
@@ -153,6 +153,7 @@ section{
 #topPage{
   height: 600px;
   width: 100%;
+  position: relative;
   background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 100%);
 }
 
@@ -254,7 +255,7 @@ header{
     .prof-img-wrapper{
       margin-bottom: 16px;
       width: 345px;
-      margin: 0 auto;
+      margin: 0 auto 20px;
         img{
           width: 345px;
           height: 213px;
@@ -344,35 +345,36 @@ footer{
 }
 
 /* -------------------------------------------- */
-/* works-page*/
+/* gallery-page*/
 /* -------------------------------------------- */
-#worksPage{
+#galleryPage{
   height: 70px;
 }
 
-#works{
+.gallery{
   position: relative;
-    #works-wrapper{
+  background: url(../images/p_pt_0225_m_pt_02250.jpg);
+    .gallery-wrapper{
       h1{
         font-size: 5.6rem;
         text-align: center;
         margin-bottom: 20px;
       }
-      .works-container{
+      .gallery-container{
         display: flex;
         justify-content: space-between;
         margin-bottom: 20px;
           .pc-icon-wrapper{
             display: none;
           }
-          .works-image-wrapper{
+          .gallery-image-wrapper{
             width: 46%;
               img{
                 height: 284px;
                 width: 100%;
                 object-fit: cover;
               }
-              .works-image-explain{
+              .gallery-image-explain{
                 display: none;
               }
           }
@@ -497,29 +499,29 @@ footer{
   }
 
 /* -------------------------------------------- */
-/* works-page*/
+/* gallery-page*/
 /* -------------------------------------------- */
-  #worksPage{
+  #galleryPage{
     height: 70px;
   }
 
-  #works{
+  .gallery{
     position: relative;
-      #works-wrapper{
+      .gallery-wrapper{
         h1{
           font-size: 5.6rem;
           margin-bottom: 30px;
         }
-        .works-container{
+        .gallery-container{
           margin-bottom: 30px;
-          .works-image-wrapper{
+          .gallery-image-wrapper{
             width: 48%;
             position: relative;
               img{
                 height: 453px;
                 width: 100%;
               }
-            .works-image-explain{
+            .gallery-image-explain{
               display: block;
               background-color: rgba(255, 255, 255, 0.5);
               width: 76%;
@@ -631,18 +633,18 @@ footer{
 /* -------------------------------------------- */
 /* works-page*/
 /* -------------------------------------------- */
-  #worksPage{
+  #galleryPage{
     height: 70px;
   }
 
-  #works{
+  .gallery{
     position: relative;
-      #works-wrapper{
+      .gallery-wrapper{
         h1{
           font-size: 10rem;
           margin-bottom: 40px;
         }
-        .works-container{
+        .gallery-container{
           margin-bottom: 30px;
           .pc-icon-wrapper{
             display: block;
@@ -666,14 +668,14 @@ footer{
                 }
             }
           }
-          .works-image-wrapper{
+          .gallery-image-wrapper{
             width: 35%;
             position: relative;
               img{
                 height: 604px;
                 width: 100%;
               }
-              .works-image-explain{
+              .gallery-image-explain{
                 top: 67%;
               }
           }
