@@ -56,7 +56,7 @@ $('.header-nav a').click(function(){
 // });
 
 
-$('ul li').click(function() {
+$('.work-thumbnail').click(function() {
   var imgSrc = $(this).children().attr('src');
   $('#big').children().attr('src', imgSrc);
   $('.modal').fadeIn();
