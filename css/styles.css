@@ -599,7 +599,7 @@ footer .to-top .fas {
 /* galleryPage*/
 /* -------------------------------------------- */
 .gallery {
-  padding: 50px;
+  padding: 60px;
   position: relative;
   background: url(../images/p_pt_0225_m_pt_02250.jpg);
 }
@@ -756,7 +756,7 @@ footer .to-top .fas {
   /* galleryPage*/
   /* -------------------------------------------- */
   .gallery {
-    padding: 70px;
+    padding: 90px;
     position: relative;
   }
   .gallery .gallery-wrapper h1 {
