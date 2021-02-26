@@ -218,8 +218,7 @@ section{
   width: 100%;
   position: relative;
   // background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 100%);
-  overflow: hidden;
-  
+  overflow: hidden; 
 }
 
 .bg{
@@ -285,7 +284,6 @@ header{
     border-top: 6px solid $mainColor;
     border-bottom: 6px solid $mainColor;
     z-index: 2;
-    // position: absolute;
     position: fixed;
       li{
         &:last-child{
@@ -389,10 +387,11 @@ header{
     right: 0;
     .fa-times{
       position: absolute;
-      top: 20px;
-      right: 20px;
+      top: 5px;
+      right: 5px;
       font-size: 3rem;
       cursor: pointer;
+      color: #fff;
     }
   }
 }
@@ -510,13 +509,11 @@ footer{
 }
 
 /* -------------------------------------------- */
-/* gallery-page*/
+/* galleryPage*/
 /* -------------------------------------------- */
-#galleryPage{
-  height: 70px;
-}
 
 .gallery{
+  padding: 50px;
   position: relative;
   background: url(../images/p_pt_0225_m_pt_02250.jpg);
     .gallery-wrapper{
@@ -567,18 +564,6 @@ footer{
     }
 }
 
-.toTop{
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: block;
-  background-color: rgb(231, 81, 186);
-  text-align: center;
-  line-height: 40px;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
 
 /* -------------------------------------------- */
 /* ▼タブレット用デザインとして付け足すデザイン */
@@ -592,7 +577,6 @@ footer{
   height: 545px;
 }
   header{
-    
     .header-nav{
       height: 70px;
       li{
@@ -692,13 +676,12 @@ footer{
   }
 
 /* -------------------------------------------- */
-/* gallery-page*/
+/* galleryPage*/
 /* -------------------------------------------- */
-  #galleryPage{
-    height: 70px;
-  }
+
 
   .gallery{
+    padding: 70px;
     position: relative;
       .gallery-wrapper{
         h1{
@@ -796,7 +779,7 @@ footer{
 
   .modal{
     #big{
-      width: 40%;
+      width: 35%;
       max-width: 800px;
       .fa-times{
         font-size: 4rem;
@@ -853,12 +836,8 @@ footer{
   }
 
 /* -------------------------------------------- */
-/* works-page*/
+/* galleryPage*/
 /* -------------------------------------------- */
-  #galleryPage{
-    height: 70px;
-  }
-
   .gallery{
     position: relative;
       .gallery-wrapper{
