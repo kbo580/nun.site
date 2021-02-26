@@ -29,7 +29,7 @@ $(function(){
 $('.header-nav a').click(function(){
     var id =$(this).attr('href');
     var position = $(id).offset().top;
-    $('html, body').animate({'scrollTop': position}, 300);
+    $('html, body').animate({'scrollTop(200px)': position}, 300);
   });
 
 
