@@ -534,7 +534,7 @@ footer{
                 .thumbnail{
                   height: 284px;
                   width: 100%;
-                  // min-width: 160px;
+                  min-width: 160px;
                   object-fit: cover;
                 }
                 .gallery-image-explain{
@@ -546,7 +546,7 @@ footer{
       .sp-icon-wrapper{
           .sp-icon-container{
             display: grid;
-            gap: 20px 20px;
+            gap: 10px 10px;
             grid-template-columns: repeat(6, 100px);
             grid-template-rows: 100px 100px;
             overflow: scroll;
@@ -559,8 +559,6 @@ footer{
       }
     }
   }
-
-
 
 /* -------------------------------------------- */
 /* ▼タブレット用デザインとして付け足すデザイン */
@@ -675,8 +673,6 @@ footer{
 /* -------------------------------------------- */
 /* galleryPage*/
 /* -------------------------------------------- */
-
-
   .gallery{
     padding-top: 90px;
     position: relative;
@@ -719,7 +715,7 @@ footer{
         .sp-icon-wrapper{
             .sp-icon-container{
               display: grid;
-              gap: 10px 10px;
+              gap: 16px 16px;
               grid-template-columns: repeat(12, 200px);
               grid-template-rows: 200px;
               grid-auto-flow: rows;

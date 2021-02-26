@@ -632,6 +632,7 @@ footer .to-top .fas {
 .gallery .gallery-wrapper .gallery-container .gallery-image-wrapper .thumbnail {
   height: 284px;
   width: 100%;
+  min-width: 160px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -643,7 +644,7 @@ footer .to-top .fas {
 .gallery .gallery-wrapper .sp-icon-wrapper .sp-icon-container {
   display: -ms-grid;
   display: grid;
-  gap: 20px 20px;
+  gap: 10px 10px;
   -ms-grid-columns: (100px)[6];
       grid-template-columns: repeat(6, 100px);
   -ms-grid-rows: 100px 100px;
@@ -791,7 +792,7 @@ footer .to-top .fas {
   .gallery .gallery-wrapper .sp-icon-wrapper .sp-icon-container {
     display: -ms-grid;
     display: grid;
-    gap: 10px 10px;
+    gap: 16px 16px;
     -ms-grid-columns: (200px)[12];
         grid-template-columns: repeat(12, 200px);
     -ms-grid-rows: 200px;
