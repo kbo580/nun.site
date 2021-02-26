@@ -19,7 +19,7 @@ $textColor: #7C7C7C;
 $mainColor: #B3D3DB;
 
 body {
-  font-family: 'Concert One', cursive, sans-serif;
+  font-family:  'Concert One', 'M PLUS 1p', cursive, sans-serif;
   font-size: 1.6em;
   color: $textColor;
 }
@@ -78,7 +78,7 @@ section{
 /*各セクションの見出し*/
 .section-heading{
   color: $textColor;
-  font-size: 2rem;
+  font-size: 3rem;
   letter-spacing: 0.1em;
   line-height: 1.2;
   margin-bottom: 20px;
@@ -86,7 +86,7 @@ section{
 
 @media (min-width: 768px){
   .section-heading{
-    font-size: 3.6rem;
+    font-size: 4.8rem;
     margin-bottom: 30px;
   }
 }
@@ -98,50 +98,113 @@ section{
 }
 /*各セクションの見出しここまで*/
 
+/*スライド用CSS*/
+.slideA{
+  display: none;
+}
+
+.slideB{
+  display: none;
+}
+
+.active{
+  display: block;
+}
+/*スライド用CSSここまで*/
+
+
+
 /*サムネイル画像*/
 .thumbnail{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.work-thumbnail:hover, .sp-gallery-thumbnail:hover, .pc-gallery-thumbnail:hover{
+  opacity: .8;
+  cursor: pointer;
+}
+
 /*画像を変更するにはimagesの後ろから変える*/
 .work1{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/200x200.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/IMG_7848.JPG);
 }
 .work2{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/200x200.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/IMG_7849.JPG);
 }
 .work3{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/200x200.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/IMG_7850.JPG);
 }
 .work4{
   background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/20201127-IMG_8580-1024x683.jpg);
 }
 .work5{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/20201127-IMG_8580-1024x683.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/作成中です.png);
 }
 .work6{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/20201127-IMG_8580-1024x683.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/作成中です.png);
 }
 .work7{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/20201127-IMG_8580-1024x683.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/作成中です.png);
 }
 .work8{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/20201127-IMG_8580-1024x683.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/作成中です.png);
 }
 .work9{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/20201127-IMG_8580-1024x683.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/作成中です.png);
 }
 .work10{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/20201127-IMG_8580-1024x683.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/作成中です.png);
 }
 .work11{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/20201127-IMG_8580-1024x683.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/作成中です.png);
 }
 .work12{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/20201127-IMG_8580-1024x683.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/作成中です.png);
 }
 /*サムネイル画像ここまで*/
+
+/*ギャラリー用右側の写真*/
+.work1-1{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/IMG_7848.JPG);
+}
+.work2-1{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/IMG_7849.JPG);
+}
+.work3-1{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/IMG_0821.jpg);
+}
+.work4-1{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/20201127-IMG_8580-1024x683.jpg);
+}
+.work5-1{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/作成中です.png);
+}
+.work6-1{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/作成中です.png);
+}
+.work7-1{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/作成中です.png);
+}
+.work8-1{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/作成中です.png);
+}
+.work9-1{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/作成中です.png);
+}
+.work10-1{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/作成中です.png);
+}
+.work11-1{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/作成中です.png);
+}
+.work12-1{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/作成中です.png);
+}
+/*ギャラリー用ここまで*/
+
+
 
 /* -------------------------------------------- */
 /* ▼スマホ*/
@@ -154,9 +217,62 @@ section{
   height: 600px;
   width: 100%;
   position: relative;
-  background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 100%);
+  // background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 100%);
+  overflow: hidden;
+  
 }
 
+.bg{
+  .main_img{
+    background-size: cover;
+    background-position: center top;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    animation: anime 36s 0s infinite;
+    opacity: 0;
+  }
+}
+  .main_img:nth-of-type(2) {
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s; }
+
+  .main_img:nth-of-type(3) {
+    -webkit-animation-delay: 12s;
+    animation-delay: 12s; }
+
+  .main_img:nth-of-type(4) {
+    -webkit-animation-delay: 18s;
+    animation-delay: 18s; }
+
+  .main_img:nth-of-type(5) {
+    -webkit-animation-delay: 24s;
+    animation-delay: 24s; }
+
+  .main_img:nth-of-type(6) {
+    -webkit-animation-delay: 30s;
+    animation-delay: 30s; }
+
+/*animation keyframe*/
+@keyframes anime {
+  0% {
+        opacity: 0;
+    }
+    8% {
+        opacity: 1;
+    }
+    17% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0;
+    }
+    100% { opacity: 0 }
+}
+/*animation keyframeここまで*/    
 header{
   .header-nav{
     width: 100%;
@@ -168,6 +284,8 @@ header{
     height: 70px;
     border-top: 6px solid $mainColor;
     border-bottom: 6px solid $mainColor;
+    z-index: 2;
+    position: absolute;
       li{
         &:last-child{
           margin-right: 0;
@@ -179,7 +297,8 @@ header{
           color: #fff;
           position: relative;
           overflow: hidden;
-          font-size: 1.2rem;
+          font-size: calc(1.4rem + ((1vw - 0.375rem) * 3.0769));
+          min-height: 0vw;
             .border {
               position: absolute;
               display: block;
@@ -227,10 +346,10 @@ header{
         .thumbnail{
             height: 100%;
             width: 100%;
-              a{
-                display: block;
-                width: 100%;
-                height: 100%;
+              img{
+                object-fit: cover;
+                width: 100px;
+                height: 100px;
               }
           }
       }
@@ -242,6 +361,36 @@ header{
         &:hover{
           opacity: .8;
         }
+    }
+  }
+}
+
+.modal{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  display: none;
+
+  #big{
+    position: absolute;
+    width: 90%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    .fa-times{
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 3rem;
+      cursor: pointer;
     }
   }
 }
@@ -264,7 +413,7 @@ header{
         }
     }
     .prof-text-wrapper{
-      font-size: 1.4rem;
+      font-size: 1.6rem;
       width: 315px;
       margin: 0 auto;
         li:not(:last-child){
@@ -342,6 +491,20 @@ footer{
   height: 70px;
   line-height: 70px;
   font-size: 1.2rem;
+  position: relative;
+  .to-top{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: #fff;
+    bottom: 10px;
+    right: 0;
+    .fas{
+      text-align: center;
+      line-height: 50px;
+    }
+
+  }
 }
 
 /* -------------------------------------------- */
@@ -370,7 +533,7 @@ footer{
           }
           .gallery-image-wrapper{
             width: 46%;
-              img{
+              .thumbnail{
                 height: 284px;
                 width: 100%;
                 object-fit: cover;
@@ -388,14 +551,14 @@ footer{
             grid-template-rows: 100px 100px;
             overflow: scroll;
             width: 100%;
-            li{
-              height: 100%;
-              width: 100%;
-                a{
-                  display: block;
-                  width: 100%;
-                  height: 100%;
-                }
+              li{
+                height: 100%;
+                width: 100%;
+                  a{
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                  }
             }
           }
       }
@@ -423,12 +586,15 @@ footer{
 /* -------------------------------------------- */
 /* header*/
 /* -------------------------------------------- */
+#topPage{
+  height: 545px;
+}
   header{
-    height: 545px;
+    
     .header-nav{
       li{
         a{
-          font-size: 2rem;
+          font-size: 3.2rem;
         }
       }
     }
@@ -444,6 +610,29 @@ footer{
         grid-template-columns: 200px 200px 200px ;
         grid-template-rows: 200px 200px 200px 200px  ;
         margin-bottom: 30px;
+        .thumbnail{
+          height: 100%;
+          width: 100%;
+          img{
+            object-fit: cover;
+            width: 200px;
+            height: 200px;
+          }
+        }
+      }
+      .moreBtn{
+        font-size: 3.2rem;
+        border-bottom: 4px solid #7c7c7c;
+      }
+    }
+  }
+
+  .modal{
+    #big{
+      width: 70%;
+      max-width: 800px;
+      .fa-times{
+        font-size: 4rem;
       }
     }
   }
@@ -483,7 +672,7 @@ footer{
       width: 570px;
       margin: 0 auto;
         label{
-          font-size: 1.6rem;
+          font-size: 2rem;
         }
         .btn{
           margin: 0 auto;
@@ -518,9 +707,9 @@ footer{
           .gallery-image-wrapper{
             width: 48%;
             position: relative;
-              img{
-                height: 453px;
+              .thumbnail{
                 width: 100%;
+                height: 453px;
               }
             .gallery-image-explain{
               display: block;
@@ -530,6 +719,7 @@ footer{
               position: absolute;
               right: 0;
               top: 58%;
+              font-family: 'M PLUS 1p';
                 .works-name, .chara-name{
                   font-weight: bold;
                   font-size: 1.6rem;
@@ -565,8 +755,17 @@ footer{
 /* -------------------------------------------- */
 /* header*/
 /* -------------------------------------------- */
+#topPage{
+  height: 812px;
+}
   header{
-    height: 812px;
+    .header-nav{
+      li{
+        a{
+          font-size: 3.2rem;   
+        }
+      }
+    }
   }
   
 /* -------------------------------------------- */
@@ -579,6 +778,25 @@ footer{
         grid-template-columns: 200px 200px 200px 200px;
         grid-template-rows: 200px 200px 200px ;
         margin-bottom: 60px;
+        .thumbnail{
+          height: 100%;
+          width: 100%;
+            img{
+              object-fit: cover;
+              width: 200px;
+              height: 200px;
+            }
+        }
+      }
+    }
+  }
+
+  .modal{
+    #big{
+      width: 40%;
+      max-width: 800px;
+      .fa-times{
+        font-size: 4rem;
       }
     }
   }
@@ -670,10 +888,9 @@ footer{
             }
           }
           .gallery-image-wrapper{
-            // width: 35%;
             width: 340px;
             position: relative;
-              img{
+              .thumbnail{
                 height: 604px;
                 width: 100%;
               }
@@ -687,4 +904,6 @@ footer{
         }
       }
   }
+
+
 }

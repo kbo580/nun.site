@@ -1,20 +1,75 @@
+// 'use strict';
+// {
+//   const worksName = ['kboA','kboB','kboC'];
+//   const charaName = ['k','b','o'];
+//   const explain = ['すごい','いけてる','かわいい'];
+//   const worksName = document.getElementById('worksName');
+//   const charaName = document.getElementById('charaName');
+//   const explain = document.getElementById('explain');
+//   const pcThumb = document.querySelectorAll('pc-gallery-thumbnail');
+  
+//   console.log(`${worksName[0]}は${explain[1]}`)
+//   console.log(worksName)
+  
+//   worksName.addEventListener('click', ()=>{
+//     worksName.textContent = 'kbo';
+//     charaName.textContent = 'kbo';
+//     explain.textContent = 'kbo';
+//   })
+
+// }
+
+
+
+
+
 $(function(){
-  //.nav内のaをクリックすると
+
+//スクロール
 $('.header-nav a').click(function(){
-  //押したもののhref属性を取得し、変数idに入れる
     var id =$(this).attr('href');
-  //画面の一番上から変数idの距離を取得し変数positionに入れる
     var position = $(id).offset().top;
-  //ページの上から変数positionまでスクロールする
     $('html, body').animate({'scrollTop': position}, 300);
   });
 
 
+//サムネをクリックするとギャラリーの画像が変化する
+  $('.sp-gallery-thumbnail').click(function(){
+    $('.slideA').removeClass('active');
+    $('.slideB').removeClass('active');
+    var index = $('.sp-gallery-thumbnail').index($(this));
+    $('.slideA').eq(index).addClass('active');
+    $('.slideB').eq(index).addClass('active');
+  });
+
+  $('.pc-gallery-thumbnail').click(function(){
+    $('.slideA').removeClass('active');
+    $('.slideB').removeClass('active');
+    var index = $('.pc-gallery-thumbnail').index($(this));
+    $('.slideA').eq(index).addClass('active');
+    $('.slideB').eq(index).addClass('active');
+  });
+
+//サムネをクリックするとギャラリーの文字が変化する
+// $('.pc-gallery-thumbnail').click(function(){
+//     $('#worksName').text('kbo');
+// });
 
 
+$('ul li').click(function() {
+  var imgSrc = $(this).children().attr('src');
+  $('#big').children().attr('src', imgSrc);
+  $('.modal').fadeIn();
+  $('body,html').css('overflow-y', 'hidden');
+});
 
-
-
+$('#close').click(function() {
+  $('.modal').fadeOut();
+  $('body,html').css('overflow-y', 'visible');
+});
+// $('.modal').click(function(){
+//   $('#close').click();
+// });
 
 
 
