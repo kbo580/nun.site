@@ -19,7 +19,7 @@ $textColor: #7C7C7C;
 $mainColor: #B3D3DB;
 
 body {
-  font-family: 'Concert One', sans-serif;
+  font-family: 'Concert One', cursive, sans-serif;
   font-size: 1.6em;
   color: $textColor;
 }
@@ -359,6 +359,7 @@ footer{
         font-size: 5rem;
         text-align: center;
         margin-bottom: 20px;
+        letter-spacing: 0.1em;
       }
       .gallery-container{
         display: flex;
