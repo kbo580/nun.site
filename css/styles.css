@@ -341,11 +341,11 @@ header .header-nav {
           align-items: center;
   padding: 0 4%;
   background-color: rgba(184, 172, 200, 0.5);
-  height: 70px;
+  height: 50px;
   border-top: 6px solid #B3D3DB;
   border-bottom: 6px solid #B3D3DB;
   z-index: 2;
-  position: absolute;
+  position: fixed;
 }
 
 header .header-nav li:last-child {
@@ -687,6 +687,9 @@ footer .to-top .fas {
   /* -------------------------------------------- */
   #topPage {
     height: 545px;
+  }
+  header .header-nav {
+    height: 70px;
   }
   header .header-nav li a {
     font-size: 3.2rem;
