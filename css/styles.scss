@@ -99,11 +99,7 @@ section{
 /*各セクションの見出しここまで*/
 
 /*スライド用CSS*/
-.slideA{
-  display: none;
-}
-
-.slideB{
+.gallery-right-image{
   display: none;
 }
 
@@ -112,99 +108,11 @@ section{
 }
 /*スライド用CSSここまで*/
 
-
-
 /*サムネイル画像*/
-.thumbnail{
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 .work-thumbnail:hover, .sp-gallery-thumbnail:hover, .pc-gallery-thumbnail:hover{
   opacity: .8;
   cursor: pointer;
 }
-
-/*画像を変更するにはimagesの後ろから変える*/
-.work1{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/IMG_7848.JPG);
-}
-.work2{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/IMG_7849.JPG);
-}
-.work3{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/IMG_7850.JPG);
-}
-.work4{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/20201127-IMG_8580-1024x683.jpg);
-}
-.work5{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/作成中です.png);
-}
-.work6{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/作成中です.png);
-}
-.work7{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/作成中です.png);
-}
-.work8{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/作成中です.png);
-}
-.work9{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/作成中です.png);
-}
-.work10{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/作成中です.png);
-}
-.work11{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/作成中です.png);
-}
-.work12{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/作成中です.png);
-}
-/*サムネイル画像ここまで*/
-
-/*ギャラリー用右側の写真*/
-.work1-1{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/IMG_7848.JPG);
-}
-.work2-1{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/IMG_7849.JPG);
-}
-.work3-1{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/IMG_0821.jpg);
-}
-.work4-1{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/20201127-IMG_8580-1024x683.jpg);
-}
-.work5-1{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/作成中です.png);
-}
-.work6-1{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/作成中です.png);
-}
-.work7-1{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/作成中です.png);
-}
-.work8-1{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/作成中です.png);
-}
-.work9-1{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/作成中です.png);
-}
-.work10-1{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/作成中です.png);
-}
-.work11-1{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/作成中です.png);
-}
-.work12-1{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) ,url(../images/作成中です.png);
-}
-/*ギャラリー用ここまで*/
-
-
 
 /* -------------------------------------------- */
 /* ▼スマホ*/
@@ -222,6 +130,7 @@ section{
 }
 
 .bg{
+  // height: 100%;
   .main_img{
     background-size: cover;
     background-position: center top;
@@ -328,8 +237,8 @@ header{
 /* works*/
 /* -------------------------------------------- */
 .works{
-  background: url(../images/p_pt_0225_m_pt_02250.jpg) ;
-  // background-attachment: fixed;
+  background: url(../images/p_pt_0225_m_pt.jpg) ;
+  background-attachment: fixed;
   .works-wrapper{
     text-align: right;
       .section-heading{
@@ -342,7 +251,7 @@ header{
         gap: 8px 10px;
         justify-content: center;
         margin-bottom: 20px;
-        .thumbnail{
+        .work-thumbnail{
             height: 100%;
             width: 100%;
               img{
@@ -511,54 +420,66 @@ footer{
 /* -------------------------------------------- */
 /* galleryPage*/
 /* -------------------------------------------- */
-  .gallery{
-    padding-top: 60px;
-    position: relative;
-    background: url(../images/p_pt_0225_m_pt_02250.jpg);
-      .gallery-wrapper{
-        h1{
-          font-size: 5rem;
-          text-align: center;
-          margin-bottom: 20px;
-          letter-spacing: 0.1em;
+.gallery{
+  padding-top: 60px;
+  position: relative;
+  background: url(../images/p_pt_0225_m_pt.jpg);
+    .gallery-wrapper{
+      h1{
+        font-size: 5rem;
+        text-align: center;
+        margin-bottom: 20px;
+        letter-spacing: 0.1em;
+      }
+      .gallery-container{
+        .pc-icon-wrapper{
+          display: none;
         }
-        .gallery-container{
+        .gallery-image-container{
           display: flex;
           justify-content: space-between;
           margin-bottom: 20px;
-            .pc-icon-wrapper{
-              display: none;
-            }
-            .gallery-image-wrapper{
-              width: 46%;
-                .thumbnail{
+          .gallery-image-wrapper{
+            width: 46%;
+              .gallery-image{
+                li{
                   height: 284px;
                   width: 100%;
                   min-width: 160px;
-                  object-fit: cover;
+                    img{
+                      width: 100%;
+                      height: 100%;
+                      object-fit: cover;
+                    }
                 }
-                .gallery-image-explain{
-                  display: none;
-                }
-            }
-      }
-
-      .sp-icon-wrapper{
-          .sp-icon-container{
-            display: grid;
-            gap: 10px 10px;
-            grid-template-columns: repeat(6, 100px);
-            grid-template-rows: 100px 100px;
-            overflow: scroll;
-            width: 100%;
-              .thumbnail{
-                height: 100%;
-                width: 100%;
+              }
+              .gallery-image-explain{
+                display: none;
               }
           }
+        }
+      }
+      .sp-icon-wrapper{
+        .sp-icon-container{
+          display: grid;
+          gap: 10px 10px;
+          grid-template-columns: repeat(7, 100px); //数が増えたら左側の数字を変えていく
+          grid-template-rows: 100px 100px;
+          overflow: scroll;
+          width: 100%;
+            .sp-gallery-thumbnail{
+              height: 100%;
+              width: 100%;
+              img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+            }
+        }
       }
     }
-  }
+}
 
 /* -------------------------------------------- */
 /* ▼タブレット用デザインとして付け足すデザイン */
@@ -582,6 +503,7 @@ footer{
     }
   }
 
+
 /* -------------------------------------------- */
 /* works*/
 /* -------------------------------------------- */
@@ -592,7 +514,7 @@ footer{
         grid-template-columns: 200px 200px 200px ;
         grid-template-rows: 200px 200px 200px 200px  ;
         margin-bottom: 30px;
-        .thumbnail{
+        .work-thumbnail{
           height: 100%;
           width: 100%;
           img{
@@ -683,48 +605,64 @@ footer{
         }
         .gallery-container{
           margin-bottom: 30px;
-          .gallery-image-wrapper{
-            width: 48%;
-            position: relative;
-              .thumbnail{
-                width: 100%;
-                height: 453px;
+          .gallery-image-container{
+            .gallery-image-wrapper{
+              width: 48%;
+              position: relative;
+              .gallery-image{
+                li{
+                  width: 100%;
+                  height: 453px;
+                    img{
+                      width: 100%;
+                      height: 100%;
+                    }
+                }
               }
-            .gallery-image-explain{
-              display: block;
-              background-color: rgba(255, 255, 255, 0.5);
-              width: 76%;
-              padding: 16px 16px 0;
-              position: absolute;
-              right: 0;
-              top: 58%;
-              font-family: 'M PLUS 1p';
-                .works-name, .chara-name{
-                  font-weight: bold;
-                  font-size: 1.6rem;
-                  margin-bottom: 8px;
-                  color: #000;
-                }
-                .explain{
-                  font-size: 1.4rem;
-                  color: #000;
-                }
+              .gallery-image-explain{
+                display: block;
+                background-color: rgba(255, 255, 255, 0.5);
+                width: 76%;
+                padding: 16px 16px 0;
+                position: absolute;
+                right: 0;
+                top: 58%;
+                font-family: 'M PLUS 1p';
+                min-height: 150px;
+                  .works-name, .chara-name{
+                    font-weight: bold;
+                    font-size: 1.6rem;
+                    margin-bottom: 8px;
+                    color: #000;
+                  }
+                  .explain{
+                    font-size: 1.4rem;
+                    color: #000;
+                  }
+              }
             }
+
           }
-        }
-        .sp-icon-wrapper{
-            .sp-icon-container{
-              display: grid;
-              gap: 16px 16px;
-              grid-template-columns: repeat(12, 200px);
-              grid-template-rows: 200px;
-              grid-auto-flow: rows;
-              overflow: scroll;
-              width: 100%;
-            }
+          .sp-icon-wrapper{
+              .sp-icon-container{
+                gap: 16px 16px;
+                grid-template-columns: repeat(14, 200px); //数が増えたら左側の数字を変えていく
+                grid-template-rows: 200px;
+                grid-auto-flow: rows;
+                .sp-gallery-thumbnail{
+                  height: 100%;
+                  width: 100%;
+                    img{
+                      width: 100%;
+                      height: 100%;
+                      object-fit: cover;
+                    }
+                }
+              }
           }
         }
       }
+  }
 }
 
 /* ------------------------------------ */
@@ -757,18 +695,14 @@ footer{
         grid-template-columns: 200px 200px 200px 200px;
         grid-template-rows: 200px 200px 200px ;
         margin-bottom: 60px;
-        .thumbnail{
+        .work-thumbnail{
           height: 100%;
           width: 100%;
-            img{
-              object-fit: cover;
-              width: 200px;
-              height: 200px;
             }
         }
       }
     }
-  }
+  
 
   .modal{
     #big{
@@ -840,45 +774,79 @@ footer{
         }
         .gallery-container{
           margin-bottom: 0px;
-          .pc-icon-wrapper{
-            display: block;
-            .pc-icon-container{
-              display: grid;
-              grid-template-columns: 122px 122px;
-              grid-auto-rows: 122px ;
+          display: flex;
+          justify-content: space-between;
+            .gallery-image-container{
+              order: 1;
+              .gallery-image-wrapper{
+                width: 340px;
+                position: relative;
+                  &:first-child{
+                    margin-right: 15px;;
+                  }
+                  .gallery-image
+                    li{
+                      height: 604px;
+                      width: 100%;
+                        img{
+                          width: 100%;
+                          height: 100%;
+                        }
+                    }
+                  .gallery-image-explain{
+                    top: 67%;
+                    min-height: 160px;
+                  }
+              }
+            }
+          // .pc-icon-wrapper{
+          //   display: block;
+          //   .pc-icon-container{
+          //     display: grid;
+          //     grid-template-columns: 122px 122px;
+          //     grid-auto-rows: 122px ;
+          //     gap: 10px 10px;
+          //     justify-content: center;
+          //     margin-bottom: 20px;
+          //     overflow: scroll;
+          //     height: 604px;
+          //       .pc-gallery-thumbnail{
+          //         height: 100%;
+          //         width: 100%;
+          //           img{
+          //             object-fit: cover;
+          //             width: 100%;
+          //             height: 100%;
+          //           }
+          //       }
+          //   }
+          // }
+          .sp-icon-wrapper{
+            
+            .sp-icon-container{
+              // border: 7px solid silver;
+              // grid-template-columns: 122px 122px; 
+              grid-template-columns: repeat(2, 122px);
+              grid-template-rows: 122px;
+              grid-auto-rows: 122px;
               gap: 10px 10px;
-              justify-content: center;
-              margin-bottom: 20px;
-              overflow: scroll;
               height: 604px;
-                li{
+                .sp-gallery-thumbnail{
                   height: 100%;
                   width: 100%;
-                    a{
-                      display: block;
+                    img{
+                      object-fit: cover;
                       width: 100%;
                       height: 100%;
                     }
                 }
             }
           }
-          .gallery-image-wrapper{
-            width: 340px;
-            position: relative;
-              .thumbnail{
-                height: 604px;
-                width: 100%;
-              }
-              .gallery-image-explain{
-                top: 67%;
-              }
-          }
-        }
-        .sp-icon-wrapper{
-          display: none;
-        }
+        }  
+        // .sp-icon-wrapper{
+        //   display: none;
+        // }
       }
   }
-
 
 }
