@@ -109,7 +109,7 @@ section{
 /*スライド用CSSここまで*/
 
 /*サムネイル画像*/
-.work-thumbnail:hover, .sp-gallery-thumbnail:hover, .pc-gallery-thumbnail:hover{
+.work-thumbnail:hover, .gallery-thumbnail:hover{
   opacity: .8;
   cursor: pointer;
 }
@@ -459,15 +459,15 @@ footer{
           }
         }
       }
-      .sp-icon-wrapper{
-        .sp-icon-container{
+      .icon-wrapper{
+        .icon-container{
           display: grid;
           gap: 10px 10px;
           grid-template-columns: repeat(7, 100px); //数が増えたら左側の数字を変えていく
           grid-template-rows: 100px 100px;
           overflow: scroll;
           width: 100%;
-            .sp-gallery-thumbnail{
+            .gallery-thumbnail{
               height: 100%;
               width: 100%;
               img{
@@ -638,18 +638,20 @@ footer{
                   .explain{
                     font-size: 1.4rem;
                     color: #000;
+                    overflow: scroll;
+                    height: 80px;
                   }
               }
             }
 
           }
-          .sp-icon-wrapper{
-              .sp-icon-container{
+          .icon-wrapper{
+              .icon-container{
                 gap: 16px 16px;
                 grid-template-columns: repeat(14, 200px); //数が増えたら左側の数字を変えていく
                 grid-template-rows: 200px;
                 grid-auto-flow: rows;
-                .sp-gallery-thumbnail{
+                .gallery-thumbnail{
                   height: 100%;
                   width: 100%;
                     img{
@@ -821,9 +823,9 @@ footer{
           //       }
           //   }
           // }
-          .sp-icon-wrapper{
+          .icon-wrapper{
             
-            .sp-icon-container{
+            .icon-container{
               // border: 7px solid silver;
               // grid-template-columns: 122px 122px; 
               grid-template-columns: repeat(2, 122px);
@@ -831,7 +833,7 @@ footer{
               grid-auto-rows: 122px;
               gap: 10px 10px;
               height: 604px;
-                .sp-gallery-thumbnail{
+                .gallery-thumbnail{
                   height: 100%;
                   width: 100%;
                     img{

@@ -101,7 +101,7 @@ section {
 
 /*スライド用CSSここまで*/
 /*サムネイル画像*/
-.work-thumbnail:hover, .sp-gallery-thumbnail:hover, .pc-gallery-thumbnail:hover {
+.work-thumbnail:hover, .gallery-thumbnail:hover {
   opacity: .8;
   cursor: pointer;
 }
@@ -513,7 +513,7 @@ footer .to-top .fas {
   display: none;
 }
 
-.gallery .gallery-wrapper .sp-icon-wrapper .sp-icon-container {
+.gallery .gallery-wrapper .icon-wrapper .icon-container {
   display: -ms-grid;
   display: grid;
   gap: 10px 10px;
@@ -525,12 +525,12 @@ footer .to-top .fas {
   width: 100%;
 }
 
-.gallery .gallery-wrapper .sp-icon-wrapper .sp-icon-container .sp-gallery-thumbnail {
+.gallery .gallery-wrapper .icon-wrapper .icon-container .gallery-thumbnail {
   height: 100%;
   width: 100%;
 }
 
-.gallery .gallery-wrapper .sp-icon-wrapper .sp-icon-container .sp-gallery-thumbnail img {
+.gallery .gallery-wrapper .icon-wrapper .icon-container .gallery-thumbnail img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -672,8 +672,10 @@ footer .to-top .fas {
   .gallery .gallery-wrapper .gallery-container .gallery-image-container .gallery-image-wrapper .gallery-image-explain .explain {
     font-size: 1.4rem;
     color: #000;
+    overflow: scroll;
+    height: 80px;
   }
-  .gallery .gallery-wrapper .gallery-container .sp-icon-wrapper .sp-icon-container {
+  .gallery .gallery-wrapper .gallery-container .icon-wrapper .icon-container {
     gap: 16px 16px;
     -ms-grid-columns: (200px)[14];
         grid-template-columns: repeat(14, 200px);
@@ -681,11 +683,11 @@ footer .to-top .fas {
         grid-template-rows: 200px;
     grid-auto-flow: rows;
   }
-  .gallery .gallery-wrapper .gallery-container .sp-icon-wrapper .sp-icon-container .sp-gallery-thumbnail {
+  .gallery .gallery-wrapper .gallery-container .icon-wrapper .icon-container .gallery-thumbnail {
     height: 100%;
     width: 100%;
   }
-  .gallery .gallery-wrapper .gallery-container .sp-icon-wrapper .sp-icon-container .sp-gallery-thumbnail img {
+  .gallery .gallery-wrapper .gallery-container .icon-wrapper .icon-container .gallery-thumbnail img {
     width: 100%;
     height: 100%;
     -o-object-fit: cover;
@@ -819,7 +821,7 @@ li img {
     top: 67%;
     min-height: 160px;
   }
-  .gallery .gallery-wrapper .gallery-container .sp-icon-wrapper .sp-icon-container {
+  .gallery .gallery-wrapper .gallery-container .icon-wrapper .icon-container {
     -ms-grid-columns: (122px)[2];
         grid-template-columns: repeat(2, 122px);
     -ms-grid-rows: 122px;
@@ -828,11 +830,11 @@ li img {
     gap: 10px 10px;
     height: 604px;
   }
-  .gallery .gallery-wrapper .gallery-container .sp-icon-wrapper .sp-icon-container .sp-gallery-thumbnail {
+  .gallery .gallery-wrapper .gallery-container .icon-wrapper .icon-container .gallery-thumbnail {
     height: 100%;
     width: 100%;
   }
-  .gallery .gallery-wrapper .gallery-container .sp-icon-wrapper .sp-icon-container .sp-gallery-thumbnail img {
+  .gallery .gallery-wrapper .gallery-container .icon-wrapper .icon-container .gallery-thumbnail img {
     -o-object-fit: cover;
        object-fit: cover;
     width: 100%;
