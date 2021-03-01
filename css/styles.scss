@@ -299,7 +299,7 @@ header{
   right: 0;
   bottom: 0;
   z-index: 2;
-  display: none;
+  // display: none;
 
   #big{
     position: absolute;
@@ -602,7 +602,7 @@ footer{
   .modal{
     #big{
       width: 70%;
-      max-width: 800px;
+      max-width: 700px;
       .fa-times{
         font-size: 4rem;
       }
